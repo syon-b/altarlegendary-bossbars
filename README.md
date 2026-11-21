@@ -5,7 +5,8 @@ Two packs for the AltarLegendaryWH server (Minecraft Java **26.1 – 26.3**):
 | Pack | What it does | Download |
 |---|---|---|
 | **Weapon models** | Custom 3D models, textures, sounds and tooltips for the legendary weapons and items | **[⬇ AltarLegendary-26.3.zip](https://github.com/syon-b/altarlegendary-bossbars/releases/latest/download/AltarLegendary-26.3.zip)** |
-| **Boss bars** | Themed boss-bar frames for the five dungeon bosses | **[⬇ AltarLegendaryBossBars.zip](https://github.com/syon-b/altarlegendary-bossbars/releases/latest/download/AltarLegendaryBossBars.zip)** |
+| **Boss bars v2** (26.1 – 26.3) | Themed boss-bar frames for the five dungeon bosses | **[⬇ AltarLegendaryBossBars.zip](https://github.com/syon-b/altarlegendary-bossbars/releases/latest/download/AltarLegendaryBossBars.zip)** |
+| **Boss bars v2 — 26.2 build** | Same art, marked for 26.2 | **[⬇ AltarLegendaryBossBars-26.2.zip](https://github.com/syon-b/altarlegendary-bossbars/releases/latest/download/AltarLegendaryBossBars-26.2.zip)** |
 
 Install: put the zip(s) in `.minecraft/resourcepacks/` and enable them in *Options → Resource Packs* (the boss-bar pack is also sent automatically by the server). They work together in any order.
 
@@ -41,7 +42,7 @@ structures:
 ## How it works
 
 Each frame is a font glyph (`altarlegendary:bossbars`, ``–``) drawn over the vanilla bar; the plugin uses
-it as the boss bar title for players who have the pack. `make_bossbar_pack.py` regenerates the pack (needs Pillow).
+it as the boss bar title for players who have the pack. `make_bossbar_pack_v2.py` regenerates the pack (needs Pillow): `python3 make_bossbar_pack_v2.py out.zip 84 99`.
 
 The boss-bar artwork is original.
 
